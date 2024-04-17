@@ -27,7 +27,7 @@ img {
     height: auto;
 }
 
-.movieSearch {
+#movieSearch {
     width: 15%;
     border: 3px solid #cc0000;
     border-right: none;
@@ -66,10 +66,33 @@ img {
     width: 100%;
     height: auto;
     margin: 5%;
-    
-    background-color: palegoldenrod;
+    padding: 1%;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 1%;
+    padding-right: 30px;
+    background-color: rgb(20, 20, 20);
 }
 
-.movieImgContainer {
+.movie img {
     border:5px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+h2, p {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.movieTitle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
 }

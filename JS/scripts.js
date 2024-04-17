@@ -1,8 +1,9 @@
 const searchButton = document.getElementById('movieSearchButton');
+const movieSearchResultDiv = document.getElementById('movieSearchResultDiv');
 
 searchButton.addEventListener('click', async function()
 {
-    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('movieSearch');
+    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('movieSearch').value;
     const options = {
         method: 'GET',
         headers: {
@@ -15,7 +16,19 @@ searchButton.addEventListener('click', async function()
     const result = await repsone.json();
 
 
+    for (let i = 0; i < result.data.length; i++)
+    {
+        const movieDiv = 
+        "<div class='movie'>" +
+            "<img class='movieImgContainer' src=" + result.data[i].image + " alt=''>" +
+            "<div>" + 
+                "<h2 class='movieTitle'>" + result.data[i].title + "</h2>" +
+                "<p>Year: " + result.data[i].year + "</p>" +
+                "<p>Stars: " + result.data[i].stars + "</p>" +                        
+            "</div>" +
+        "</div>";
 
+        movieSearchResultDiv.insertAdjacentHTML("beforeend", movieDiv);
 
-
+    }
 });
