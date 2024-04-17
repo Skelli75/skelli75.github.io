@@ -25,10 +25,32 @@
             </div>
         </div>
 
-        <div id="searchDiv">
-            <label for="movieSearch">Search:</label>
-            <input type="text" name="movieInput" id="movieSearch">
+        <div class="mainDiv">    
+            <div class="searchDiv">
+                <input placeholder="Search..." type="text" name="movieInput" id="movieSearch">
+                <button type="submit" id="movieSearchButton" class="searchButton">
+                    <img src="Resources/magnifying_glas.png" alt="">
+                </button>
+            </div>
+
+            <div class="searchResultDiv">
+                <div class="movie">
+                    <img class="movieImgContainer" src="Resources/Movie/rpo.jpg" alt="">
+                    <p class="movieTitle">Ready player one</p>
+                </div>
+                <div class="movie">
+                    <img class="movieImgContainer" src="Resources/Movie/Harry.jpg" alt="">
+                    <p class="movieTitle">Harry Potter</p>
+                </div>
+                <div class="movie">
+                    <img class="movieImgContainer" src="Resources/Movie/backtothefuture.jpg" alt="">
+                    <p class="movieTitle">Back to the future</p>
+                </div>
+            </div>
+
+
+
         </div>
-        
+
     </body>
 </html>

@@ -9,6 +9,7 @@ header {
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 #headerImage {
@@ -24,4 +25,51 @@ body {
 img {
     width: 100%;
     height: auto;
+}
+
+.movieSearch {
+    width: 15%;
+    border: 3px solid #cc0000;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #8f3f3f;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #cc0000;
+    background: #cc0000;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchDiv {
+    margin: 4%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchResultDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie {
+    width: 100%;
+    height: auto;
+    margin: 5%;
+    
+    background-color: palegoldenrod;
+}
+
+.movieImgContainer {
+    border:5px solid pink;
 }
