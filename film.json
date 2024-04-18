@@ -1,0 +1,78 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1713445138090,
+  "data": [
+    {
+      "id": "tt0241527",
+      "qid": "movie",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "stars": "Daniel Radcliffe, Rupert Grint",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg"
+    },
+    {
+      "id": "tt13918446",
+      "qid": "tvSeries",
+      "title": "Untitled Harry Potter Series",
+      "stars": "",
+      "q": "TV series",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzkzMWJkNTctYzA1Mi00ZmE1LWI3YWMtZTk4MmM5MDg5NGJmXkEyXkFqcGdeQXVyNzc3NzAwMzc@._V1_.jpg"
+    },
+    {
+      "id": "tt0330373",
+      "qid": "movie",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "stars": "Daniel Radcliffe, Emma Watson",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_.jpg"
+    },
+    {
+      "id": "tt1201607",
+      "qid": "movie",
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "stars": "Daniel Radcliffe, Emma Watson",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+    },
+    {
+      "id": "tt0304141",
+      "qid": "movie",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "stars": "Daniel Radcliffe, Emma Watson",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg"
+    },
+    {
+      "id": "tt0295297",
+      "qid": "movie",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "stars": "Daniel Radcliffe, Rupert Grint",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg"
+    },
+    {
+      "id": "tt0926084",
+      "qid": "movie",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "stars": "Daniel Radcliffe, Emma Watson",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_.jpg"
+    },
+    {
+      "id": "tt0373889",
+      "qid": "movie",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": 2007,
+      "stars": "Daniel Radcliffe, Emma Watson",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
+    }
+  ]
+}

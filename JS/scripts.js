@@ -12,9 +12,10 @@ searchButton.addEventListener('click', async function()
         }
     };
 
-    const repsone = await fetch(url, options);
-    const result = await repsone.json();
+    /*const response = await fetch(url, options);
+    const result = await response.json();*/
 
+    const result = require('../film.json');
 
     for (let i = 0; i < result.data.length; i++)
     {
