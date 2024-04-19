@@ -62,8 +62,19 @@ img {
     justify-content: space-around;
 }
 
+.movieParent {
+    display: grid;
+    grid-template-areas: 
+    "a" "b" "c";
+}
+
+#movieSearchResultDiv {
+    display: flex;
+    flex-direction: column;
+}
+
 .movie {
-    width: 100%;
+    width: 30%;
     height: auto;
     margin: 5%;
     padding: 1%;
