@@ -20,17 +20,14 @@ searchButton.addEventListener('click', async function()
 
     const gridArea = ["a","b","c"];
 
-    let childAmount = 0;
     let parentAmount = 0;
 
     for (let i = 0; i < result.data.length; i++)
     {
-        
-
-        if (childAmount < 3)
+        if (movieSearchResultDiv.children[parentAmount].length < 3)
         {
             const movieDiv = 
-            "<div class='movie' style='grid-area:" + gridArea[childAmount] + ";' >" +
+            "<div class='movie' style='grid-area:" + gridArea[movieSearchResultDiv.children[j].children.length] + ";' >" +
                 "<img class='movieImgContainer' src=" + result.data[i].image + " alt=''>" +
                 "<div>" + 
                     "<h2 class='movieTitle'>" + result.data[i].title + "</h2>" +
@@ -40,15 +37,13 @@ searchButton.addEventListener('click', async function()
             "</div>";
 
             movieSearchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", movieDiv);
-            childAmount = childAmount + 1;
         }
         else 
         {
             const movieParentDiv =
             "<div class='movieParent'></div>"
             movieSearchResultDiv.insertAdjacentHTML("beforeend", movieParentDiv);
-            childAmount = 0;
-            parentAmount = parentAmount + 1;
+            parentAmount++;
         }
     }
 });
