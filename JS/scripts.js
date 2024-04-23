@@ -1,9 +1,9 @@
-const searchButton = document.getElementById('movieSearchButton');
-const movieSearchResultDiv = document.getElementById('movieSearchResultDiv');
+const searchButton = document.getElementById('SearchButton');
+const searchResultDiv = document.getElementById('SearchResultDiv');
 
 searchButton.addEventListener('click', async function()
 {
-    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('movieSearch').value;
+    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('SearchInput').value;
     const options = {
         method: 'GET',
         headers: {
@@ -12,38 +12,62 @@ searchButton.addEventListener('click', async function()
         }
     };
 
-    /*const response = await fetch(url, options);
-    const result = await response.json();*/
-
-    const response = await fetch('../JSON/film.json');
+    const response = await fetch(url, options);
     const result = await response.json();
 
-    const gridArea = ["a","b","c"];
+    /*const response = await fetch('../JSON/film.json');
+    const result = await response.json();*/
 
     let parentAmount = 0;
 
     for (let i = 0; i < result.data.length; i++)
     {
-        if (movieSearchResultDiv.children[parentAmount].length < 3)
+        if (searchResultDiv.children[parentAmount].children.length == 3) 
         {
-            const movieDiv = 
-            "<div class='movie' style='grid-area:" + gridArea[movieSearchResultDiv.children[j].children.length] + ";' >" +
-                "<img class='movieImgContainer' src=" + result.data[i].image + " alt=''>" +
-                "<div>" + 
-                    "<h2 class='movieTitle'>" + result.data[i].title + "</h2>" +
-                    "<p>Year: " + result.data[i].year + "</p>" +
-                    "<p>Stars: " + result.data[i].stars + "</p>" +                        
-                "</div>" +
-            "</div>";
-
-            movieSearchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", movieDiv);
-        }
-        else 
-        {
-            const movieParentDiv =
-            "<div class='movieParent'></div>"
-            movieSearchResultDiv.insertAdjacentHTML("beforeend", movieParentDiv);
+            const resultParentDiv =
+            "<div class='resultParent'></div>"
+            searchResultDiv.insertAdjacentHTML("beforeend", resultParentDiv);
             parentAmount++;
         }
+        if (searchResultDiv.children[parentAmount].children.length < 3)
+        {
+
+            if (result.data[i].id[0] == "t")
+            {
+                const movieDiv = 
+                "<div class='result'>" +
+                    "<img class='resultImgContainer' src=" + result.data[i].image + " alt=''>" +
+                    "<div>" + 
+                        "<h2 class='resultTitle'>" + result.data[i].title + "</h2>" +
+                        "<p>Year: " + result.data[i].year + "</p>" +
+                        "<p>Stars: " + result.data[i].stars + "</p>" +                        
+                    "</div>" +
+                "</div>";
+                searchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", movieDiv);
+            }
+            else if (result.data[i].id[0] == "n")
+            {
+                const actorDiv = 
+                "<div class='result'>" +
+                    "<img class='resultImgContainer' src=" + result.data[i].image + " alt=''>" +
+                    "<div>" + 
+                        "<h2 class='resultTitle'>" + result.data[i].title + "</h2>" +
+                        "<p>Work: " + result.data[i].stars + "</p>" +                        
+                    "</div>" +
+                "</div>";
+                searchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", actorDiv);
+            }
+        }
+    }
+
+    while (true)
+    {
+        if  (searchResultDiv.children[parentAmount].children.length < 3)
+        {
+            const movieDiv = "<div class='result'> </div>"
+            searchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", movieDiv);
+        }
+        else
+            break;
     }
 });

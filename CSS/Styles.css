@@ -27,8 +27,8 @@ img {
     height: auto;
 }
 
-#movieSearch {
-    width: 15%;
+#SearchInput {
+    width: 20%;
     border: 3px solid #cc0000;
     border-right: none;
     padding: 5px;
@@ -52,7 +52,7 @@ img {
 
 .searchDiv {
     margin: 4%;
-    width: 100%;
+    width: 80%;
     position: relative;
     display: flex;
 }
@@ -62,18 +62,18 @@ img {
     justify-content: space-around;
 }
 
-.movieParent {
-    display: grid;
-    grid-template-areas: 
-    "a" "b" "c";
+.resultParent {
+    display: flex;
+    background-color: rgb(20, 20, 20);
+
 }
 
-#movieSearchResultDiv {
+#SearchResultDiv {
     display: flex;
     flex-direction: column;
 }
 
-.movie {
+.result {
     width: 30%;
     height: auto;
     margin: 5%;
@@ -85,10 +85,9 @@ img {
 
     border-radius: 1%;
     padding-right: 30px;
-    background-color: rgb(20, 20, 20);
 }
 
-.movie img {
+.result img {
     border:5px solid pink;
     display: flex;
     justify-content: center;
@@ -102,7 +101,7 @@ p {
     margin: 0;
 }
 
-.movieTitle {
+.resultTitle {
     text-align: center;
     margin-top: 0;
     margin-bottom: 5px;
