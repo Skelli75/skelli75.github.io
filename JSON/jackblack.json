@@ -1,0 +1,68 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1713947685628,
+  "data": [
+    {
+      "id": "nm0085312",
+      "title": "Jack Black",
+      "stars": "Actor, School of Rock (2003)",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTFiMWNlNmItMDRiYy00NzA4LWE5YjItZmViNWQ2NzhhOWZlXkEyXkFqcGdeQXVyMTA2Mjc5ODMy._V1_.jpg"
+    },
+    {
+      "id": "nm3131644",
+      "title": "Jack Black",
+      "stars": "Writer, You Can't Win"
+    },
+    {
+      "id": "tt27469041",
+      "qid": "musicVideo",
+      "title": "Jack Black: Peaches",
+      "year": 2023,
+      "stars": "Jack Black",
+      "q": "musicVideo",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2NjYzFkN2UtZjExYi00MWE5LThhY2UtOWEwMDBjMzg2MjgxXkEyXkFqcGdeQXVyMTI3NjAxODc0._V1_.jpg"
+    },
+    {
+      "id": "tt0331527",
+      "qid": "tvShort",
+      "title": "Jack Black: Spider-Man",
+      "year": 2002,
+      "stars": "Jack Black, Sarah Michelle Gellar",
+      "q": "TV short",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDhlMmNmMDMtZmQ2Zi00M2FlLTg2MjEtNjZjNGI3M2ZmZTc1XkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_.jpg"
+    },
+    {
+      "id": "tt21867434",
+      "qid": "movie",
+      "title": "BlackBerry",
+      "year": 2023,
+      "stars": "Jay Baruchel, Glenn Howerton",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDNhZWU4NTQtYjk1NS00MTM1LTg3ODYtMzE0MjQ2YTI5MGM4XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg"
+    },
+    {
+      "id": "tt4301160",
+      "qid": "tvMiniSeries",
+      "title": "Black Bird",
+      "year": 2022,
+      "stars": "Taron Egerton, Paul Walter Hauser",
+      "q": "TV mini-series",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjI3NjcyN2UtMGNhZC00YTYxLWJmOTQtNWI1ZGJmNjA4ZjY5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_.jpg"
+    },
+    {
+      "id": "tt6550012",
+      "qid": "short",
+      "title": "Jack Black",
+      "year": 2016,
+      "stars": "Duncan Meijering, Dirk Gunther Mohr",
+      "q": "short",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjhjODJkMzQtOTE4OC00MzdmLTkwZDEtMGRmMjZmZDk5MDE3XkEyXkFqcGdeQXVyMzMyMjc3ODA@._V1_.jpg"
+    },
+    {
+      "id": "nm11250422",
+      "title": "Jack Black",
+      "stars": "Actor, Die Antwoord: Fat Faded Fuck Face (2016)"
+    }
+  ]
+}

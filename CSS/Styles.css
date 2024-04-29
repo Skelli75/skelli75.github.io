@@ -27,6 +27,19 @@ img {
     height: auto;
 }
 
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#top10Div {
+    margin: 1%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 #SearchInput {
     width: 20%;
     border: 3px solid #cc0000;
@@ -51,6 +64,14 @@ img {
 }
 
 .searchDiv {
+    margin: 4%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#inputDiv {
     margin: 4%;
     width: 80%;
     position: relative;
@@ -88,7 +109,6 @@ img {
 }
 
 .result img {
-    border:5px solid pink;
     display: flex;
     justify-content: center;
 }

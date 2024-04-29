@@ -23,13 +23,20 @@
         </div>
 
         <div class="mainDiv">    
-            <div class="searchDiv">
-                <input placeholder="Search..." type="text" name="searchInput" id="SearchInput">
-                <button type="submit" id="SearchButton" class="searchButton">
-                    <img src="Resources/magnifying_glas.png" alt="">
-                </button>
+            <div class="searchDiv">  
+                <div id="inputDiv">              
+                    <input placeholder="Search..." type="text" name="searchInput" id="SearchInput">
+                    <button type="submit" id="SearchButton" class="searchButton">
+                        <img src="Resources/magnifying_glas.png" alt="">
+                    </button>
+                </div>
+                <div id="SearchResultDiv" class="searchResultDiv">
+                    <h1 style="color: white;">Search results:</h1>
+                    <div class="resultParent"></div>
+                </div>
             </div>
-            <div id="SearchResultDiv" class="searchResultDiv">
+            <div id="top10Div">
+                <h1 style="color: white;">Top 10:</h1>
                 <div class="resultParent"></div>
             </div>
         </div>
