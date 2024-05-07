@@ -1,0 +1,1421 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1715064462953,
+  "data": [
+    {
+      "id": "tt12637874",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Fallout"
+      },
+      "primaryImage": {
+        "id": "rm2121877249",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjQ0YjAyNWQtMjRjMC00NzMxLTlkNjEtYWQzNmQwNGRlMGJkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imageWidth": 1944,
+        "imageHeight": 2880
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.5,
+        "topRanking": {
+          "rank": 226
+        },
+        "voteCount": 148539
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Fallout"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.freevee",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Watch Free on Freevee"
+                  },
+                  "name": {
+                    "value": "Freevee"
+                  },
+                  "refTagFragment": "fdv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/119794c1-a963-4cda-84e7-aa9c8cd733d2._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/65662a3b-47eb-4271-9830-773014309b44._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Freevee"
+                },
+                "description": {
+                  "value": "S1 Watch Free on Freevee"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.imdbtv.com/deeplink?contentId=amzn1.dv.gti.242f5d02-0b3e-4f4d-a89b-22da3f65f0ec&destination=Playback&type=VOD&ref_tag=imdb_app"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.PRIME",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "included with Prime"
+                  },
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvs_piv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/e062ea53-945a-42cb-8d15-6405531687ec._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/75f35a85-7a6e-4f1f-bf8b-e4c8556bc4e4._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "S1 included with Prime"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "aiv://aiv/resume?gti=amzn1.dv.gti.242f5d02-0b3e-4f4d-a89b-22da3f65f0ec"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po5205482",
+        "author": null,
+        "plotText": {
+          "plainText": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground bunkers to protect themselves from radiation, mutants and bandits."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt12637874/contribution/plot/po5205482/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt12637874/contribution/plot/po5205482/report"
+        }
+      },
+      "releaseDate": {
+        "day": 10,
+        "month": 4,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-MA",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 3600,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 1,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    },
+    {
+      "id": "tt13649112",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Baby Reindeer"
+      },
+      "primaryImage": {
+        "id": "rm2702539265",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmQ0NDE5NjYtMGU4OS00NGMwLWJmOGYtZjVmYTFhMzA3ZGQ2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg",
+        "imageWidth": 604,
+        "imageHeight": 755
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8,
+        "topRanking": {
+          "rank": 835
+        },
+        "voteCount": 66161
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": 2024
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Baby Reindeer"
+      },
+      "titleType": {
+        "id": "tvMiniSeries",
+        "text": "TV Mini Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Mini Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "S1 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.netflix.com/watch/81219887?source=imdb"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po7562798",
+        "author": null,
+        "plotText": {
+          "plainText": "The story follows writer and performer Richard Gadd's warped relationship with a female stalker and the impact it has on him as he is ultimately forced to face a deep, dark buried trauma."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt13649112/contribution/plot/po7562798/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt13649112/contribution/plot/po7562798/report"
+        }
+      },
+      "releaseDate": {
+        "day": 11,
+        "month": 4,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-MA",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 1800,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 2,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    },
+    {
+      "id": "tt16426418",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Challengers"
+      },
+      "primaryImage": {
+        "id": "rm1337609729",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTk1MTdmYzctNzlkOS00ZTNmLWI4ZTMtMzc3OWFkMDI0MTJkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imageWidth": 2765,
+        "imageHeight": 4096
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.8,
+        "topRanking": null,
+        "voteCount": 24068
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Challengers"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po6346124",
+        "author": null,
+        "plotText": {
+          "plainText": "Tashi, a former tennis prodigy turned coach, turned her husband into a champion. But to overcome a losing streak, he needs to face his ex-best friend and Tashi's ex-boyfriend."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt16426418/contribution/plot/po6346124/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt16426418/contribution/plot/po6346124/report"
+        }
+      },
+      "releaseDate": {
+        "day": 26,
+        "month": 4,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for language throughout, some sexual content and graphic nudity"
+      },
+      "titleRuntime": {
+        "seconds": 7860,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 3,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 2
+        }
+      }
+    },
+    {
+      "id": "tt2788316",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Shôgun"
+      },
+      "primaryImage": {
+        "id": "rm1455376897",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzhkNzVkNDYtNmE2Zi00ZTk1LTk2OWYtOTU5NWM5OWQ2Zjc0XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "imageWidth": 1200,
+        "imageHeight": 1500
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.8,
+        "topRanking": {
+          "rank": 68
+        },
+        "voteCount": 111228
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": 2024
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Shōgun"
+      },
+      "titleType": {
+        "id": "tvMiniSeries",
+        "text": "TV Mini Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Mini Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.abc",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Go to abc.com"
+                  },
+                  "name": {
+                    "value": "ABC"
+                  },
+                  "refTagFragment": "abc",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/92c250ed-8891-49dc-af7e-c6ba87febc0d._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/1abcf858-2814-4794-8774-626ffa558019._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on ABC"
+                },
+                "description": {
+                  "value": "S1 Go to abc.com"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://abc.com/"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.fx_now",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Go to fxnetworks.com"
+                  },
+                  "name": {
+                    "value": "FXNOW"
+                  },
+                  "refTagFragment": "fx_now",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/a25e9b82-bb3f-4052-a559-c1fd5c93e1dd._V1_.png",
+                      "width": 512,
+                      "height": 512
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9ef352bf-962b-4a69-b5d9-36f447b237e3._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on FXNOW"
+                },
+                "description": {
+                  "value": "S1 Go to fxnetworks.com"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.fxnetworks.com/fxnow"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.hulu",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "on Hulu.com and the Hulu app"
+                  },
+                  "name": {
+                    "value": "Hulu"
+                  },
+                  "refTagFragment": "hulu",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/454c994e-acf4-49ef-83d5-8fa06c8a5eab._V1_.png",
+                      "width": 512,
+                      "height": 512
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/67022a68-fde3-4078-8bd0-0ebc72efe8ad._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Hulu"
+                },
+                "description": {
+                  "value": "S1 on Hulu.com and the Hulu app"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "http://www.hulu.com?d=Amazon"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po7393264",
+        "author": null,
+        "plotText": {
+          "plainText": "When a mysterious European ship is found marooned in a nearby fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt2788316/contribution/plot/po7393264/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt2788316/contribution/plot/po7393264/report"
+        }
+      },
+      "releaseDate": {
+        "day": 27,
+        "month": 2,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "TV-MA",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 3600,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 4,
+        "rankChange": {
+          "changeDirection": "DOWN",
+          "difference": 1
+        }
+      }
+    },
+    {
+      "id": "tt1684562",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "The Fall Guy"
+      },
+      "primaryImage": {
+        "id": "rm1083211265",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA5ZjA3ZjMtMzg2ZC00ZDc4LTk3MTctYTE1ZTUzZDIzMjQyXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
+        "imageWidth": 1579,
+        "imageHeight": 2500
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.3,
+        "topRanking": null,
+        "voteCount": 23529
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "The Fall Guy"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po6751318",
+        "author": null,
+        "plotText": {
+          "plainText": "A down-and-out stuntman must find the missing star of his ex-girlfriend's blockbuster film."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt1684562/contribution/plot/po6751318/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt1684562/contribution/plot/po6751318/report"
+        }
+      },
+      "releaseDate": {
+        "day": 3,
+        "month": 5,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "PG-13",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated PG-13 for action and violence, drug content and some strong language."
+      },
+      "titleRuntime": {
+        "seconds": 7560,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 5,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 13
+        }
+      }
+    },
+    {
+      "id": "tt9466114",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "The Idea of You"
+      },
+      "primaryImage": {
+        "id": "rm2542159617",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWRkZjJiODEtM2IwZi00ZjM1LWEyOTUtOThjMDk3YThjZDUzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "imageWidth": 1944,
+        "imageHeight": 2880
+      },
+      "ratingsSummary": {
+        "aggregateRating": 6.5,
+        "topRanking": null,
+        "voteCount": 16000
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "The Idea of You"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.PRIME",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "included with Prime"
+                  },
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvs_piv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/e062ea53-945a-42cb-8d15-6405531687ec._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/75f35a85-7a6e-4f1f-bf8b-e4c8556bc4e4._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "included with Prime"
+                },
+                "shortDescription": null,
+                "link": "aiv://aiv/resume?gti=amzn1.dv.gti.918b5f07-0744-4ada-ab44-979c14087b2b"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po6086762",
+        "author": null,
+        "plotText": {
+          "plainText": "Solène, a 40-year-old single mom, begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt9466114/contribution/plot/po6086762/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt9466114/contribution/plot/po6086762/report"
+        }
+      },
+      "releaseDate": {
+        "day": 2,
+        "month": 5,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for some language and sexual content"
+      },
+      "titleRuntime": {
+        "seconds": 6900,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 6,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 201
+        }
+      }
+    },
+    {
+      "id": "tt17279496",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Civil War"
+      },
+      "primaryImage": {
+        "id": "rm1657225473",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTYyODhlODktYjUzNC00NjUyLWI1MzYtNmI0MTY3YTUxYjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imageWidth": 8100,
+        "imageHeight": 12000
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.6,
+        "topRanking": {
+          "rank": 1141
+        },
+        "voteCount": 58324
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Civil War"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po6404028",
+        "author": null,
+        "plotText": {
+          "plainText": "A journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt17279496/contribution/plot/po6404028/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt17279496/contribution/plot/po6404028/report"
+        }
+      },
+      "releaseDate": {
+        "day": 12,
+        "month": 4,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for strong violent content, bloody/disturbing images, and language throughout"
+      },
+      "titleRuntime": {
+        "seconds": 6540,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 7,
+        "rankChange": {
+          "changeDirection": "DOWN",
+          "difference": 3
+        }
+      }
+    },
+    {
+      "id": "tt26047818",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Anyone But You"
+      },
+      "primaryImage": {
+        "id": "rm1019363329",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTVhZGU2OWQtNDM1Ni00MzM3LTgzYjgtOTEwYzQzOWZjNTIyXkEyXkFqcGdeQXVyMTcwOTQzOTYy._V1_.jpg",
+        "imageWidth": 2024,
+        "imageHeight": 3000
+      },
+      "ratingsSummary": {
+        "aggregateRating": 6.2,
+        "topRanking": {
+          "rank": 4741
+        },
+        "voteCount": 77215
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Anyone But You"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "with subscription"
+                },
+                "shortDescription": null,
+                "link": "https://www.netflix.com/watch/81760229?source=imdb"
+              }
+            ]
+          },
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": null,
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvt_aiv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/4c192978-331f-429e-9c97-02d5ed9d436e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b63dfed5-e4fa-434c-be14-d2dc2b60fbae._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "rent/buy from $5.99"
+                },
+                "shortDescription": {
+                  "value": "from $5.99"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.2143b543-ee98-479b-8c01-3e5e4da4aa6d"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po7264899",
+        "author": null,
+        "plotText": {
+          "plainText": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt26047818/contribution/plot/po7264899/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt26047818/contribution/plot/po7264899/report"
+        }
+      },
+      "releaseDate": {
+        "day": 22,
+        "month": 12,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for language throughout, sexual content and brief graphic nudity."
+      },
+      "titleRuntime": {
+        "seconds": 6180,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 8,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 8
+        }
+      }
+    },
+    {
+      "id": "tt15358446",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Dead Boy Detectives"
+      },
+      "primaryImage": {
+        "id": "rm3134486785",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzJmMjE3YTYtNDMxMy00ZmE0LTg5MzktYTNhOTcyNmY4MzFiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "imageWidth": 1500,
+        "imageHeight": 2222
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.6,
+        "topRanking": null,
+        "voteCount": 7002
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Dead Boy Detectives"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "S1 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.netflix.com/watch/81679967?source=imdb"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po6193346",
+        "author": null,
+        "plotText": {
+          "plainText": "Charles Rowland and Edwin Paine decided not to enter the afterlife to stay on Earth and investigate crimes that involve supernatural stuff."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt15358446/contribution/plot/po6193346/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt15358446/contribution/plot/po6193346/report"
+        }
+      },
+      "releaseDate": {
+        "day": 25,
+        "month": 4,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-MA",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 3600,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 9,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 25
+        }
+      }
+    },
+    {
+      "id": "tt15239678",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Dune: Part Two"
+      },
+      "primaryImage": {
+        "id": "rm1391346433",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imageWidth": 2764,
+        "imageHeight": 4096
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.7,
+        "topRanking": {
+          "rank": 23
+        },
+        "voteCount": 389570
+      },
+      "releaseYear": {
+        "year": 2024,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Dune: Part Two"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": null,
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvt_aiv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/4c192978-331f-429e-9c97-02d5ed9d436e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b63dfed5-e4fa-434c-be14-d2dc2b60fbae._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "rent/buy from $24.99"
+                },
+                "shortDescription": {
+                  "value": "from $24.99"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.1bd1ce1d-8d09-4512-8aea-4f92f948063b"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po7013293",
+        "author": null,
+        "plotText": {
+          "plainText": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt15239678/contribution/plot/po7013293/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt15239678/contribution/plot/po7013293/report"
+        }
+      },
+      "releaseDate": {
+        "day": 1,
+        "month": 3,
+        "year": 2024,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "PG-13",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated PG-13 for sequences of strong violence, some suggestive material and brief strong language."
+      },
+      "titleRuntime": {
+        "seconds": 9960,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 10,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    }
+  ]
+}

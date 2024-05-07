@@ -1,0 +1,73 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1714458579841,
+  "data": [
+    {
+      "id": "/search/title/?genres=Horror",
+      "title": "Horror",
+      "stars": "Top 50 Horror Movies and TV Shows",
+      "image": "https://m.media-amazon.com/images/I/314t8YNB69L.png"
+    },
+    {
+      "id": "/scary-good",
+      "title": "Scary Good",
+      "stars": "Classic chills and modern-day thrills at IMDb's guide to horror",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTIwNTE1NTMyMl5BMl5BanBnXkFtZTYwOTU3NDE3.jpg"
+    },
+    {
+      "id": "tt1844624",
+      "qid": "tvSeries",
+      "title": "American Horror Story",
+      "year": 2011,
+      "stars": "Lady Gaga, Kathy Bates",
+      "q": "TV series",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2ZlMjQ2ZmEtODEwYi00ZTk5LThmY2UtYWFiNzE3MjZjNzQyXkEyXkFqcGdeQXVyMTU1ODIwMTM1._V1_.jpg"
+    },
+    {
+      "id": "tt12306692",
+      "qid": "tvSeries",
+      "title": "American Horror Stories",
+      "year": 2021,
+      "stars": "Sierra McCormick, Paris Jackson",
+      "q": "TV series",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjQzZDAxMjAtMTc4NC00MDJhLWJmMGUtZTU0YWE2Y2YyODJkXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
+    },
+    {
+      "id": "tt0073629",
+      "qid": "movie",
+      "title": "The Rocky Horror Picture Show",
+      "year": 1975,
+      "stars": "Tim Curry, Susan Sarandon",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_.jpg"
+    },
+    {
+      "id": "tt0070190",
+      "qid": "movie",
+      "title": "Horror Hospital",
+      "year": 1973,
+      "stars": "Michael Gough, Robin Askwith",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzNmM2FlYTctNmYzMy00YWIwLWIyNjMtNWZkNmVhNjdlYmFjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+      "id": "tt0051554",
+      "qid": "movie",
+      "title": "Horror of Dracula",
+      "year": 1958,
+      "stars": "Peter Cushing, Christopher Lee",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDhmYjgyMmEtYjMzNS00MmM5LTkxY2QtMzY0ODFjODEyMWFmXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_.jpg"
+    },
+    {
+      "id": "tt0384806",
+      "qid": "movie",
+      "title": "The Amityville Horror",
+      "year": 2005,
+      "stars": "Ryan Reynolds, Melissa George",
+      "q": "feature",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2I4YjEyMjAtNjA0Mi00MzhhLWEzNjQtNGRkZjVlNjViNWIwXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg"
+    }
+  ]
+}

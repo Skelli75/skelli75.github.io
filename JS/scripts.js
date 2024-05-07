@@ -5,21 +5,20 @@ searchButton.addEventListener('click', async function()
 {
 
     EmptyResults();
-    Top10();
 
     const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('SearchInput').value;
     const options = {
         method: 'GET',
         headers: {
             'X-RapidAPI-Key': '1b4143b935msh14d84608bb7062bp1e3116jsnea621a7f5b6c',
-            'X-RapidAPI-Host': 'imdb188.p.rapidapi.com'
+            'X-RapidAPI-Host': 'imdb188.p.rapidapi.com',
         }
     };
 
     /*const response = await fetch(url, options);
     const result = await response.json();*/
 
-    const response = await fetch('../JSON/jackblack.JSON');
+    const response = await fetch('JSON/horror.json');
     const result = await response.json();
 
     let parentAmount = 1;
@@ -40,7 +39,7 @@ searchButton.addEventListener('click', async function()
         if (parentDiv.children.length < 3)
         {
 
-            if (result.data[i].id[0] == "t")
+            if (result.data[i].id[0] == "t" || result.data[i].id[0] == "/")
             {
                 const movieDiv = 
                 "<div class='result'>" +
@@ -69,6 +68,7 @@ searchButton.addEventListener('click', async function()
         }
     }
 
+    /*
     while (true)
     {
         if  (searchResultDiv.children[parentAmount].children.length < 3)
@@ -79,6 +79,7 @@ searchButton.addEventListener('click', async function()
         else
             break;
     }
+    */
 });
 
 
@@ -98,7 +99,7 @@ async function Top10()
     /*const response = await fetch(url, options);
     const result = await response.json();*/
 
-    const response = await fetch('../JSON/top10.JSON');
+    const response = await fetch('JSON/weektop10.json');
     const result = await response.json();
 
     let parentAmount = 1;
@@ -168,3 +169,9 @@ function EmptyResults()
     searchResultDiv.insertAdjacentHTML("beforeend", "<h1 style='color: white;'>Search results:</h1>")
     searchResultDiv.insertAdjacentHTML("beforeend", "<div class='resultParent'></div>")
 };
+
+
+document.addEventListener('DOMContentLoaded', function() 
+{
+    Top10();
+});
