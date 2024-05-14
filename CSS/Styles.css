@@ -31,6 +31,8 @@ header {
 footer {
     background-color: rgb(8, 8, 8);
     height: 50px;
+    padding: 0.5%;
+    padding-left: 2%;
     
 }
 
