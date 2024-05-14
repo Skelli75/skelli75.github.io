@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ändra Innehåll</title>
+        <title>Filmer!</title>
+        <link rel="icon" type="image/x-icon" href="Resources/film.ico">
         <link rel="stylesheet" href="CSS/Styles.css">
         <script src="JS/scripts.js" defer></script>
     </head>
@@ -11,8 +12,12 @@
     <body>
         <header>
             <div id="headerDivLeft">
-                <button>Hem</button>
-                <button>Filmer</button>
+                <button class="headerButton">Hem</button>
+                <button class="headerButton">Filmer</button>
+            </div>
+            <div id="headerDivRight">
+                <button class="headerButton">About us</button>
+                <button class="headerButton">Settings</button>
             </div>
         </header>
 
@@ -31,14 +36,26 @@
                     </button>
                 </div>
                 <div id="SearchResultDiv" class="searchResultDiv">
-                    <Button class="collapsible" style="color: white;">Search results:</Button>
+                    <Button class='collapsible' style='color: white;'>
+                        <img src='Resources/right-arrow-small.png' alt='right-arrow-small'>
+                        <h1>Search results:</h1>
+                    </Button>
                     <div class="resultParent"></div>
                 </div>
             </div>
             <div id="top10Div">
-                <Button class="collapsible" style="color: white;">Top 10:</Button>
+                <Button class='collapsible' style='color: white;''>
+                    <img src='Resources/right-arrow-small.png' alt='right-arrow-small'>
+                    <h1>Top 10 This Week:</h1>
+                </Button>                
                 <div class="resultParent"></div>
             </div>
         </div>
+
+        <footer>
+            <div class="footerDiv">
+                <h4 style="color: white;">© Alfred incorporated, patent pending.</h4>
+            </div>
+        </footer>
     </body>
 </html>

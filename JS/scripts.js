@@ -3,10 +3,13 @@ const searchResultDiv = document.getElementById('SearchResultDiv');
 
 searchButton.addEventListener('click', async function()
 {
-
     EmptyResults();
 
-    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + document.getElementById('SearchInput').value;
+
+    const searchquery = document.getElementById('SearchInput').value.replace(/\s/g, "");
+
+
+    const url = 'https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + searchquery;
     const options = {
         method: 'GET',
         headers: {
@@ -18,7 +21,7 @@ searchButton.addEventListener('click', async function()
     /*const response = await fetch(url, options);
     const result = await response.json();*/
 
-    const response = await fetch('JSON/horror.json');
+    const response = await fetch('JSON/horror.json'); /*test för att inte använda upp alla api anrop*/ 
     const result = await response.json();
 
     let parentAmount = 1;
@@ -67,6 +70,8 @@ searchButton.addEventListener('click', async function()
             AddImg(parentDiv.children[parentDiv.children.length - 1], result.data[i].image);
         }
     }
+
+    SetUpCollapsible();
 });
 
 
@@ -83,10 +88,10 @@ async function Top10()
         }
     };
 
-    /*const response = await fetch(url, options);
+    /*const response = await fetch(url, options); 
     const result = await response.json();*/
 
-    const response = await fetch('JSON/weektop10.json');
+    const response = await fetch('JSON/weektop10.json'); /*test för att inte använda upp alla api anrop*/
     const result = await response.json();
 
     let parentAmount = 1;
@@ -153,7 +158,7 @@ function AddImg(div, img)
 function EmptyResults()
 {
     searchResultDiv.innerHTML = "";
-    searchResultDiv.insertAdjacentHTML("beforeend", "<h1 style='color: white;'>Search results:</h1>")
+    searchResultDiv.insertAdjacentHTML("beforeend", "<Button class='collapsible' style='color: white;''><img src='Resources/right-arrow-small.png' alt='right-arrow-small'><h1>Search results:</h1></Button>")
     searchResultDiv.insertAdjacentHTML("beforeend", "<div class='resultParent'></div>")
 };
 
@@ -178,23 +183,31 @@ function SetUpCollapsible()
             coll[i].addEventListener("click", function() 
             {
                 this.classList.toggle("active");
-
                 var content = this.parentNode.children;
-                delete content[0];
-                
 
-                for(var j = 0; j < content.length; j++){
-                    if (content[j].style.display === "flex")
+                for(var j = 1; j < content.length; j++){
+                    if (content[j].style.display === "none")
                     {
-                        content[j].style.display = "none";
+                        content[j].style.display = "flex";
+                        PointCollapsibleImgDown(this.children[0]);
                     } 
                     else 
                     {
-                        content[j].style.display = "flex";
-                        content[j].style.flexDirection = "row";
+                        content[j].style.display = "none";
+                        PointCollapsibleImgUp(this.children[0]);
                     }
                 };
             });
         }
     }
+};
+
+function PointCollapsibleImgUp(img)
+{
+    img.style.transform = 'rotate(180deg)';
+};
+
+function PointCollapsibleImgDown(img)
+{
+    img.style.transform = 'rotate(0deg)';
 };
