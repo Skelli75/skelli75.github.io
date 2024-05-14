@@ -67,19 +67,6 @@ searchButton.addEventListener('click', async function()
             AddImg(parentDiv.children[parentDiv.children.length - 1], result.data[i].image);
         }
     }
-
-    /*
-    while (true)
-    {
-        if  (searchResultDiv.children[parentAmount].children.length < 3)
-        {
-            const movieDiv = "<div class='result'> </div>"
-            searchResultDiv.children[parentAmount].insertAdjacentHTML("beforeend", movieDiv);
-        }
-        else
-            break;
-    }
-    */
 });
 
 
@@ -174,4 +161,40 @@ function EmptyResults()
 document.addEventListener('DOMContentLoaded', function() 
 {
     Top10();
+    SetUpCollapsible();
 });
+
+
+function SetUpCollapsible()
+{
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) 
+    {
+        if (!coll[i].hasAttribute("events"))
+        {
+            coll[i].setAttribute("events", true);
+            coll[i].addEventListener("click", function() 
+            {
+                this.classList.toggle("active");
+
+                var content = this.parentNode.children;
+                delete content[0];
+                
+
+                for(var j = 0; j < content.length; j++){
+                    if (content[j].style.display === "flex")
+                    {
+                        content[j].style.display = "none";
+                    } 
+                    else 
+                    {
+                        content[j].style.display = "flex";
+                        content[j].style.flexDirection = "row";
+                    }
+                };
+            });
+        }
+    }
+};
