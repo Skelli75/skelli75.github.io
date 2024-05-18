@@ -18,11 +18,11 @@ searchButton.addEventListener('click', async function()
         }
     };
 
-    /*const response = await fetch(url, options);
-    const result = await response.json();*/
-
-    const response = await fetch('JSON/horror.json'); /*test för att inte använda upp alla api anrop*/ 
+    const response = await fetch(url, options);
     const result = await response.json();
+
+    /*const response = await fetch('JSON/horror.json');*/ /*test för att inte använda upp alla api anrop*/ 
+    /*const result = await response.json();*/
 
     let parentAmount = 1;
 
@@ -88,11 +88,11 @@ async function Top10()
         }
     };
 
-    /*const response = await fetch(url, options); 
-    const result = await response.json();*/
-
-    const response = await fetch('JSON/weektop10.json'); /*test för att inte använda upp alla api anrop*/
+    const response = await fetch(url, options); 
     const result = await response.json();
+
+    /*const response = await fetch('JSON/weektop10.json');*/ /*test för att inte använda upp alla api anrop*/
+    /*const result = await response.json();*/
 
     let parentAmount = 1;
 
