@@ -60,11 +60,11 @@ button:hover {
     height: 70px;
     margin-left: 2%;
     margin-bottom: 1%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 70px;
 }
 
-.collapsible h1 {
-    text-align: center;
-}
 
 .imageContainer {
     display: flex;
